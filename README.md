@@ -38,14 +38,14 @@ python manage.py migrate
 **Вход в систему**
 Передать POST запрос по адресу localhost:8000/api/users/login/
 С телом запроса
-
+```
 {
   "user":{
     "username":"username",
     "password":"password"
   }
 }
-
+```
 **Получение первых 20-ти товаров по названию**
 Передать GET запрос по адресу localhost:8000/api/products/?title=название
 
@@ -58,22 +58,36 @@ python manage.py migrate
 **Создание товара**
 Передать POST запрос по адресу localhost:8000/api/products/
 С телом запроса
+```
 {
   "product_name":"название товара",
   "seller_store":"id магазина",
   "product_price":"Цена товара",
   "description":"Описание товара"
 }
-
-**Создане магазина**
+```
+**Создание магазина**
 Передать POST запрос по адресу localhost:8000/api/stores/
 С телом запроса
+```
 {
   "store_name":"название магазина",
   "owner_id":"id владельца (id зарегистрированного пользователя)",
   "description":"Описание магазина"
 }
-
-
+```
+**Изменение товара**
+Передать PUT запрос по адресу localhost:8000/api/products-edit/id товара/
+С телом запроса
+```
+{
+  "product_name":"название товара",
+  "seller_store":"id магазина",
+  "product_price":"Цена товара",
+  "description":"Описание товара"
+}
+```
+**Удаление товара**
+Передать DELETE запрос по адресу localhost:8000/api/products-edit/id товара/
 
 

@@ -20,11 +20,11 @@ pip install -r requirements.txt
 python manage.py migrate
 
 
-**Запустить сервер **
+**Запустить сервер ** <br />
 - python manage.py runserver
 
-**Регистрация пользователя:**
--Передать POST запрос по адресу localhost:8000/api/users/
+**Регистрация пользователя:**<br />
+Передать POST запрос по адресу localhost:8000/api/users/<br />
 С телом запроса
 ```
 {
@@ -36,8 +36,8 @@ python manage.py migrate
 }
 ```
 
-**Вход в систему**
--Передать POST запрос по адресу localhost:8000/api/users/login/
+**Вход в систему**<br />
+Передать POST запрос по адресу localhost:8000/api/users/login/<br />
 С телом запроса
 ```
 {
@@ -47,17 +47,17 @@ python manage.py migrate
   }
 }
 ```
-**Получение первых 20-ти товаров по названию**
--Передать GET запрос по адресу localhost:8000/api/products/?title=название
+**Получение первых 20-ти товаров по названию**<br />
+Передать GET запрос по адресу localhost:8000/api/products/?title=название
 
-**Получение товара по его id**
--Передать GET запрос по адресу localhost:8000/api/products/?id=id
+**Получение товара по его id**<br />
+Передать GET запрос по адресу localhost:8000/api/products/?id=id
 
-**Получение товаров магазина**
--Передать GET запрос по адресу localhost:8000/api/products/?store_id=seller_store
+**Получение товаров магазина**<br />
+Передать GET запрос по адресу localhost:8000/api/products/?store_id=seller_store
 
-**Создание товара**
--Передать POST запрос по адресу localhost:8000/api/products/
+**Создание товара**<br />
+Передать POST запрос по адресу localhost:8000/api/products/<br />
 С телом запроса
 ```
 {
@@ -67,8 +67,8 @@ python manage.py migrate
   "description":"Описание товара"
 }
 ```
-**Создание магазина**
--Передать POST запрос по адресу localhost:8000/api/stores/
+**Создание магазина**<br />
+Передать POST запрос по адресу localhost:8000/api/stores/<br />
 С телом запроса
 ```
 {
@@ -77,8 +77,8 @@ python manage.py migrate
   "description":"Описание магазина"
 }
 ```
-**Изменение товара**
--Передать PUT запрос по адресу localhost:8000/api/products-edit/id товара/
+**Изменение товара**<br />
+Передать PUT запрос по адресу localhost:8000/api/products-edit/id товара/<br />
 С телом запроса
 ```
 {
@@ -88,7 +88,7 @@ python manage.py migrate
   "description":"Описание товара"
 }
 ```
-**Удаление товара**
+**Удаление товара**<br />
 Передать DELETE запрос по адресу localhost:8000/api/products-edit/id товара/
 
 

@@ -25,7 +25,7 @@ python manage.py migrate
 **Регистрация пользователя:**
 Передать POST запрос по адресу localhost:8000/api/users/
 С телом запроса
-
+```
 {
     "user": {
         "username": "username",
@@ -33,14 +33,7 @@ python manage.py migrate
         "password": "password"
     }
 }
-
-{
-    "user": {
-        "username": "user1",
-        "email": "user1@user.user",
-        "password": "qweasdzxc"
-    }
-}
+```
 
 **Вход в систему**
 Передать POST запрос по адресу localhost:8000/api/users/login/

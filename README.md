@@ -46,7 +46,7 @@ api маркетплейса
 Передать GET запрос по адресу localhost:8000/api/products/?id=id
 
 **Получение товаров магазина**<br />
-Передать GET запрос по адресу localhost:8000/api/products/?store_id=seller_store
+Передать GET запрос по адресу localhost:8000/api/products/?seller_store=id магазина
 
 **Создание товара**<br />
 Передать POST запрос по адресу localhost:8000/api/products/<br />

@@ -12,7 +12,7 @@ api маркетплейса
 5. python manage.py migrate
 
 
-**Запустить сервер ** <br />
+**Запустить сервер** <br />
 - python manage.py runserver
 
 **Регистрация пользователя:**<br />

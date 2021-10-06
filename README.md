@@ -20,7 +20,8 @@ pip install -r requirements.txt
 python manage.py migrate
 
 
-**Запустить сервер **- python manage.py runserver
+**Запустить сервер **
+- python manage.py runserver
 
 **Регистрация пользователя:**
 Передать POST запрос по адресу localhost:8000/api/users/

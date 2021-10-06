@@ -7,7 +7,7 @@ api маркетплейса
 
 1. python3 -m venv ДиректорияВиртуальногоОкружения
 2. source ДиректорияВиртуальногоОкружения/bin/activate
-3. Перейти в директорию marketplace
+3. Перейти в директорию проекта
 4. pip install -r requirements.txt
 5. python manage.py migrate
 

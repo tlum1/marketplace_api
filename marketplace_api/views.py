@@ -13,7 +13,7 @@ class ProductAPIView(ListAPIView,):
     def get_queryset(self):
         qs = super().get_queryset()
 
-        seller_store = self.request.query_params.get('seller_store')
+        seller_store = self.request.query_params.get('store_id')
         if seller_store:
             return qs.filter(seller_store__id=seller_store)[:20]
 

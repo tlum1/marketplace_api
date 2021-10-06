@@ -5,12 +5,11 @@ api маркетплейса
 
 Прописать следующие команды:
 
-python3 -m venv ДиректорияВиртуальногоОкружения
-source ДиректорияВиртуальногоОкружения/bin/activate
-Перейти в директорию marketplace
-
-pip install -r requirements.txt
-python manage.py migrate
+1. python3 -m venv ДиректорияВиртуальногоОкружения
+2. source ДиректорияВиртуальногоОкружения/bin/activate
+3. Перейти в директорию marketplace
+4. pip install -r requirements.txt
+5. python manage.py migrate
 
 
 **Запустить сервер ** <br />

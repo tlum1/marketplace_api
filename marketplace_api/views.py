@@ -5,7 +5,7 @@ from .serializers import ProductSerializer, StoreSerializer
 
 # Create your views here.
 
-class ProductAPIView(ListAPIView,):
+class ProductAPIView(ListAPIView, ListCreateAPIView):
     """Отправка первых товаров магазина по критериям"""
     serializer_class = ProductSerializer
     queryset = Product.objects.all()
